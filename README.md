@@ -1,7 +1,7 @@
 # Luxo Iates
 Página para o projeto de Introdução a Front-End.
 
-Tarefas em aberto:
+## Tarefas em aberto:
 * Alterar a fonte da página inteira
 * Ajustar a formatação do **cabeçalho** (Luxo Iates, que devem estar em cor branca #FFFFFF e azul #1BB4E8, respectivamente) e **navegação** (PÁGINA INICIAL em azul #1BB4E8, outras em branco #FFFFFF).
 * Organizar a seção de **navegação** para ficar AO LADO de "Luxo Iates" ao invés de embaixo.
@@ -11,3 +11,4 @@ Tarefas em aberto:
 * Ajustar o posicionamento e tamanho do ícone de barco dentro da caixa de texto de contato.
 * Acrescentar e redimensionar os ícones das caixas de **Destinos** e **Nossa Frota**.
 * Definir a cor de fundo das colunas como branco #FFFFFF
+* Acrescentar as 4 imagens menores em álbum na segunda coluna.
