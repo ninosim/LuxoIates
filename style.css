@@ -4,12 +4,27 @@
 
 body {
     background-color: #EBEBEB ;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 80%;
+}
+
+main {
+    width: 80%;
 }
 
 footer {
     background-color: #EBEBEB ;
     padding: 2% ;
     font-size: 0.75em ; 
+    width: 80%;
 }
 
 h1 {
@@ -25,21 +40,40 @@ h2 {
 
 h3 {
     color: white ;
-    padding: 0.5em ;
+    padding: 0.2em ;
+    font-size: 1.5em ;
+    height: 1.5em ;
+    line-height: 1.5em;
+    margin: auto;
 }
 
 nav li {
     list-style: none;
     color: #FFFFFF ;
     display: inline-block ;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border-right: 1px solid #FFFFFF;
+}
+
+nav li:first-child {
+    padding-left: none;
+}
+
+nav li:last-child {
+    border-right: none;
+    padding-right: none;
 }
 
 .cabecalho {
-    height:70px;
     display: flex ;
     justify-content: space-between ;
     background-color: #21272B ;
-    height: 10vh;
+    height: 12vh;
+}
+
+.cabecalho h1 {
+    font-size: 20px;
 }
 
 .column {
@@ -49,9 +83,19 @@ nav li {
     padding: 2%;
 }
 
+.fone {
+    color: #C6B07F;
+    text-decoration: none ;
+}
+
+.icon {
+    float: left;
+    vertical-align: text-bottom;
+    padding-right: 10px;
+}
+
 .marca {
-    width: 30%;
-    vertical-align: middle;
+    width: 20%;
 }
 
 .marca img, h1 {
@@ -59,26 +103,42 @@ nav li {
 }
 
 .menu {
-    align-items: left ;
-    font-size: 0.75em;
+    width: 100%;
+    align-items: left;
+    font-size: 0.85em;
     justify-content: left ;
     padding: 2%;
+    padding-right: 3vh;
+    margin-top: 6vh;
 }
 
 .menu a:hover { /* Muda a cor dos links quando o mouse passa por cima */
     color: #1BB4E8;
 }
 
+.menu a:active { /* Muda a cor dos links quando o mouse passa por cima */
+    color: #1BB4E8;
+}
+
 /* Define a classe da caixa de texto sobre a imagem */
 .text-block {
-position: absolute;
-bottom: 50px;
-right: 25px;
-background-color: black;
-opacity: 0.7;
-color: white;
-padding-left: 20px;
-padding-right: 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    padding-right: 10vh;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+}
+
+.text-block p {
+    font-size: 2em;
+}
+
+.text-block p:last-child {
+    font-size: 1.3em;
 }
 
 .row:after {
@@ -99,20 +159,15 @@ clear: both;
 
 #logo {
     float: left ;
-    margin: 10px ;
+    max-width: 80%;
+    height: auto;
+    margin: 2vh ;
+    margin-left: 3vh;
 }
 
 #barco2 {
     float: left ;
-    margin: 0px 10px ;
-    height: min-content ;
-}
-
-#fone {
-    color: #C6B07F;
-    text-decoration: none ;
-}
-
-#icon {
+    margin: 5px 10px 0px 0px;
+    height: 35px;
     vertical-align: middle;
 }
