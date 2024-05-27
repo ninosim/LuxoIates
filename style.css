@@ -5,6 +5,7 @@
 }
 
 body {
+    margin-top: 0px;
     background-color: #EBEBEB ;
     padding: 0;
     width: 100vw;
@@ -30,9 +31,10 @@ footer {
 }
 
 h1 {
-    font-size: 1em ;
     font-style: italic ;
     color: #1BB4E8 ;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -41,6 +43,7 @@ h2 {
 }
 
 h3 {
+    background-color:#1BB4E8 ;
     color: white ;
     padding: 0.2em ;
     font-size: 1.5em ;
@@ -72,32 +75,39 @@ nav li:last-child {
 }
 
 .album {
-    float: left ;
+    float: flex ;
     margin: 1% ;
-    width: 48% ;
+    width: 47% ;
 }
 .cabecalho {
     display: flex ;
     justify-content: space-between ;
     background-color: #21272B ;
     height: 12vh;
+    align-items: center;
 }
 
 .cabecalho h1 {
     font-size: 20px;
-    margin-bottom: 0px;
 }
 
 .cabecalho h1+h1 {
+    margin-bottom: 0px;
     margin-top: 0px;
     color: #FFFFFF;
 }
 
 .column {
     float: left;
+    height: 75vh;
     width: 46%;
     background-color: white;
     padding: 2%;
+}
+
+.coluna_album {
+    height: 100px;
+    width: ;
 }
 
 .fone {
@@ -111,12 +121,14 @@ nav li:last-child {
     padding-right: 10px;
 }
 
-.marca {
-    width: 30%;
+.imagem_coluna {
+    height: ;
 }
 
-.marca img, h1 {
-    margin-top: 25px;
+.marca {
+    width: 30% ;
+    display: flex;
+    align-items: center ;
 }
 
 .menu {
@@ -173,7 +185,7 @@ nav li:last-child {
 }
 
 #logo {
-    float: left ;
+    /* float: left ; */
     max-width: 80%;
     height: auto;
     margin: 2vh ;
@@ -185,4 +197,13 @@ nav li:last-child {
     margin: 5px 10px 0px 0px;
     height: 35px;
     vertical-align: ;
+}
+
+#barcodestino {
+    width: 97% ;
+    margin: 1.5% ;
+}
+
+#nossa_frota {
+    background-color:#C6B07F
 }
