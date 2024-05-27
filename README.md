@@ -4,10 +4,6 @@ Página para o projeto de Introdução a Front-End.
 ## Changelog Versão 3.0
 
 ## Tarefas em aberto:
-* Ajustar o tamanho da caixa de texto sobre a imagem de background.
-* Acrescentar um padding lateral na página inteira para centralizar o conteúdo e gerar espaço em branco nas laterais.
-* Alinhar verticalmente os ícones nos h2 de Destinos e Nossa Frota.
-* Ajustar o tamanho das fontes.
 
 ## Tarefas Realizadas:
 * Foram acrescentadas todas as imagens (contribuição de Márcio Aranha).
@@ -21,3 +17,7 @@ Página para o projeto de Introdução a Front-End.
 * Definir a cor de fundo das colunas como branco #FFFFFF
 * Acrescentar as 4 imagens menores em álbum na segunda coluna. (Contribuição de Márcio Aranha)
 * Acrescentar e redimensionar os ícones das caixas de **Destinos** e **Nossa Frota**.
+* Ajustar o tamanho da caixa de texto sobre a imagem de background.
+* Acrescentar um padding lateral na página inteira para centralizar o conteúdo e gerar espaço em branco nas laterais.
+* Alinhar verticalmente os ícones nos h2 de Destinos e Nossa Frota.
+* Ajustar o tamanho das fontes.
