@@ -5,36 +5,35 @@ Página para o projeto de Introdução a Front-End.
 
 ## Tarefas em aberto:
 * Fazer uma versão nova com os seguintes valores ABSOLUTOS:
+** *header:* 98px
+** *h1:* 17px
+** *nav:* 9px
+** *logo:* 55
 
-*header:* 98px
-*h1:* 17px
-*nav:* 9px
-*logo:* 55
+** *Caixa:* 425x225
+** *caixa-texto1:* 18px
+** *caixa-texto2:* 13px
+** *caixa-barco:* 38px
 
-*Caixa:* 425x225
-*caixa-texto1:* 18px
-*caixa-texto2:* 13px
-*caixa-barco:* 38px
+** *margem-entre-seções:* 15px
+** *margem-esquerda:* 35px
+** *margem-interna:* 35px
+** *margem-direita:* 35px
+** *margem-inferior:* 45px
 
-*margem-entre-seções:* 15px
-*margem-esquerda:* 35px
-*margem-interna:* 35px
-*margem-direita:* 35px
-*margem-inferior:* 45px
+** *h2:* 16px
+** *barra do h2:* 40x455
 
-*h2:* 16px
-*barra do h2:* 40x455
+** *h3:* 13px
+** *p:* 10px
 
-*h3:* 13px
-*p:* 10px
-
-*barco-destino:* 455x225
-*barcos-frota:* 203x105
- *margem interna album:* 15px
+** *barco-destino:* 455x225
+** *barcos-frota:* 203x105
+ *** *margem interna album:* 15px
 
 
-*footer-texto:* 9px
-*footer-altura:* 70px
+** *footer-texto:* 9px
+** *footer-altura:* 70px
 
 ## Tarefas Realizadas:
 * Foram acrescentadas todas as imagens (contribuição de Márcio Aranha).
