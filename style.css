@@ -119,8 +119,8 @@ nav li:last-child {
     width: 455px;
     background-color: white;
     padding-top: 15px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
     padding-bottom: 45px;
     text-wrap: pretty;
 }
@@ -166,7 +166,6 @@ nav li:last-child {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     padding-top: 5px;
-/*    padding-bottom: 45px; */
     padding-right: 80px;
     padding-left: 25px;
     font-style: italic;
@@ -202,6 +201,10 @@ nav li:last-child {
     background-image: url("barcoprincipal.jpg") ;
     height: 495px ;
     width: 980px ;
+}
+
+#coluna_esquerda {
+    width: 421px;
 }
 
 #logo {
