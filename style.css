@@ -194,6 +194,10 @@ nav li:last-child {
     width: 980px ;
 }
 
+#coluna_esquerda {
+    width: 421px;
+}
+
 #logo {
     height: 50px ;
     margin: 25px ;
